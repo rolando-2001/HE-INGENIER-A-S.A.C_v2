@@ -137,7 +137,7 @@ export const ModalDetails = ({ selectedService, isOpen, setOpen }: Props) => {
           style={{ backgroundColor: selectedService.color }}
         >
           <Phone size={13} />
-          <span className="text-xs">917549994</span>
+          <span className="text-[9px]">917549994</span>
         </a>
       </div>
     </Modal>
