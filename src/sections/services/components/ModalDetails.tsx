@@ -21,7 +21,7 @@ export const ModalDetails = ({ selectedService, isOpen, setOpen }: Props) => {
         content: {
           top: "50%",
           left: "50%",
-          width: "auto",
+          
           height: "auto",
           marginRight: "-50%",
           transform: "translate(-50%, -50%)",
