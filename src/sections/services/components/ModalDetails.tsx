@@ -114,7 +114,7 @@ export const ModalDetails = ({ selectedService, isOpen, setOpen }: Props) => {
             className="cursor-pointer w-1/4 text-white  py-2 rounded-md font-semibold transition transform hover:scale-105 duration-200 flex items-center justify-center space-x-2"
           >
             <Phone size={13} />
-            <span className="text-xs">917549994</span>
+            <span className=" text-[10px] sm:text-xs">917549994</span>
           </a>
         </div>
       </div>
