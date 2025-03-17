@@ -118,13 +118,13 @@ export const ModalDetails = ({ selectedService, isOpen, setOpen }: Props) => {
           </a>
         </div>
       </div>
-      <div className="z-10 sm:hidden   flex justify-center items-center gap-4 p-4 bg-white  border-t border-slate-500">
+      <div className="z-10 sm:hidden   flex justify-start items-center gap-2 p-4">
         <button 
           onClick={() => setOpen(false)}
         className="cursor-pointer end-0 text-red-600 p-3 ">
           <X />
         </button>
-        <a
+       {/*  <a
           target="_blank"
             href="https://api.whatsapp.com/send?phone=+51917549994&text=Hola tengo una consulta..."
           className="
@@ -138,7 +138,7 @@ export const ModalDetails = ({ selectedService, isOpen, setOpen }: Props) => {
         >
           <Phone size={13} />
           <span className="text-[9px]">917549994</span>
-        </a>
+        </a> */}
       </div>
     </Modal>
   );
